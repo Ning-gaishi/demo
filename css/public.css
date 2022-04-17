@@ -1,0 +1,285 @@
+.wrap a {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-top {
+    background-color: #f5f3f3;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.pb-95 {
+    padding-bottom: 95px;
+}
+
+.welcome p {
+    line-height: 51px;
+    margin: 0;
+    color: #383837;
+    font-size: 14px;
+}
+
+.currency-language {
+    float: right;
+}
+
+.currency-language a {
+    color: #383838;
+    display: inline-block;
+    line-height: 51px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.currency-language a i {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.currency {
+    float: left;
+    margin-right: 44px;
+    position: relative;
+}
+
+.currency::before {
+    background-color: #383838;
+    position: absolute;
+    height: 14px;
+    width: 1px;
+    content: "";
+    right: -21px;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+.language {
+    float: left;
+}
+
+.language a img {
+    margin-right: 5px;
+}
+
+.currency-dropdown,
+.language-dropdown {
+    display: none;
+}
+
+.header-bottom {
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+}
+
+.header-bottom-active {
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.header-bottom .logo a {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.header-bottom .logo img {
+    max-width: 100%;
+
+}
+
+.header-bottom nav ul li {
+    float: left;
+    margin-right: 36px;
+}
+
+.header-bottom nav ul li a {
+    line-height: 120px;
+    color: #383838;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+}
+
+.header-bottom .icon {
+    float: right;
+}
+
+.header-bottom .icon>div {
+    float: left;
+    margin-right: 17px;
+}
+
+.header-bottom .icon>div a {
+    line-height: 120px;
+    color: #383838;
+}
+
+.header-bottom .icon>div a i {
+    font-size: 20px;
+
+}
+
+
+.footer-top {
+    background-color: #f4f4f4;
+}
+
+.footer-top>div>div {
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+
+.footer-widget .footer-logo a img {
+    max-width: 100%;
+}
+
+.footer-widget p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin: 23px 0 20px;
+}
+
+.footer-widget .payment-img a img {
+    max-width: 100%;
+}
+
+.footer-widget-margin-1 {
+    margin-left: 50px;
+}
+
+.footer-widget h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #323232;
+    margin: 0 0 20px;
+}
+
+.footer-widget ul li {
+    margin-bottom: 12px;
+}
+
+.footer-widget ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-widget ul li a {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-widget-margin-2 {
+    margin-left: 20px;
+}
+
+.footer-address ul li {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 6px;
+}
+
+.footer-address ul li span {
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+.open-time {
+    margin: 20px 0 0
+}
+
+.open-time p {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 2px;
+}
+
+.open-time p span {
+    color: #e97730;
+}
+
+.open-time p:last-child {
+    margin: 0 0 0;
+}
+
+.footer-bottom {
+    background-color: #f0f0f0;
+}
+
+.footer-bottom>div {
+    padding: 14px 0 12px;
+    text-align: center !important;
+}
+
+.footer-bottom>div p {
+    text-align: center !important;
+}
+
+.footer-bottom>div p i {
+    color: #fa0909;
+    margin: 0 5px;
+}
+
+.footer-bottom>div p a {
+    color: #e97730;
+    font-weight: 500;
+    margin-left: 5px;
+
+
+}
+
+.back {
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #262626;
+    color: #fff;
+    right: 30px;
+    bottom: 53px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50px;
+    z-index: 9811 !important;
+}
+
+.back i {
+    font-size: 20px;
+}
